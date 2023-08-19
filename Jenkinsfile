@@ -9,7 +9,7 @@ pipeline {
     stage('SonarQube - Static Application Security Testing (SAST)') { //plugin Sonar Quality GatesVersion
       steps {
         withSonarQubeEnv('SonarQube') {
-          sh "mvn sonar:sonar -Dsonar.projectKey=kubernetes-devops-security -Dsonar.host.url=http://mysonarqube:9000"
+          sh "mvn sonar:sonar -Dsonar.projectKey=AuthUtils -Dsonar.host.url=http://mysonarqube:9000"
         }
       // timeout(time: 2, unit: 'MINUTES') {
       //     script {
