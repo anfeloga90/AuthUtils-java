@@ -9,7 +9,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>Controlador</groupId>
+	<groupId>com.sun.identity.authentication.service</groupId>
 	<artifactId>AuthUtils</artifactId>
 	<version>0.0.1</version>
 	<name>AuthUtils</name>
