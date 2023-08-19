@@ -16,6 +16,7 @@ pipeline {
           -Dsonar.projectVersion=1.0 \
           -Dsonar.language=Java \
           -Dsonar.sourceEncoding=UTF-8 \
+          -Dsonar.sources=.
           -Dsonar.host.url=http://mysonarqube:9000 "
         }
       // timeout(time: 2, unit: 'MINUTES') {
