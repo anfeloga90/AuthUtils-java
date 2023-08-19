@@ -13,7 +13,7 @@
 	<artifactId>AuthUtils</artifactId>
 	<version>0.0.1</version>
 	<name>AuthUtils</name>
-	<description>Demo for DevSecOps</description>
+	<description>Trabajo Practico</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

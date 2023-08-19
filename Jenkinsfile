@@ -14,7 +14,6 @@ pipeline {
           -Dsonar-projectKey=Controlador \
           -Dsonar.projectName=Controlador \
           -Dsonar.projectVersion=1.0 \
-          -Dsonar.sources=Controlador \
           -Dsonar.language=Java \
           -Dsonar.sourceEncoding=UTF-8 \
           -Dsonar.host.url=http://mysonarqube:9000 "
