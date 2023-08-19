@@ -8,6 +8,7 @@ pipeline {
     //http://mysonarqube:9000
     stage('SonarQube - Static Application Security Testing (SAST)') { //plugin Sonar Quality GatesVersion
       steps {
+        sh 'ls -lh'
         withSonarQubeEnv('SonarQube') {
           sh "mvn sonar:sonar -Dsonar.projectKey=AuthUtils -Dsonar.host.url=http://mysonarqube:9000"
         }
